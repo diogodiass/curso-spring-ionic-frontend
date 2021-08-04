@@ -10,7 +10,7 @@ export class StorageService {
     if(usr == null){
       return null;
     }
-    else{
+    else{ 
       return JSON.parse(usr);
     }
   }
