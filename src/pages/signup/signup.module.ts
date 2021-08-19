@@ -13,7 +13,7 @@ import { SignupPage } from './signup';
   ],
   providers: [
     CidadeService,
-    EstadoService 
+    EstadoService
   ]
 })
 export class SignupPageModule {}
