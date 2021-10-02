@@ -69,7 +69,7 @@ export class ProdutosPage {
 
    doRefresh(refresher) {
      this.page = 0;
-     this.items = [];
+     this.items = []; 
      this.loadData();
       setTimeout(() => {
         refresher.complete();
